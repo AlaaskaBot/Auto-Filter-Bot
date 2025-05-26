@@ -83,10 +83,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/HA_Bots_Support')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/HA_Bots')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/HA_Films_World')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/HA_Bots")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/CC_MoviesDiccussion')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/CinemaColonyUpdates')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/CinemaColonyGroup')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/CinemaColonyUpdates")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/HA_Bots")
 
 # Bot settings
@@ -146,7 +146,7 @@ STICKERS = [sticker for sticker in environ.get('STICKERS', 'CAACAgIAAxkBAAEN4ctn
 
 
 # for Premium 
-IS_PREMIUM = is_enabled('IS_PREMIUM', True)
+IS_PREMIUM = is_enabled('IS_PREMIUM', False)
 PRE_DAY_AMOUNT = int(environ.get('PRE_DAY_AMOUNT', '10')) # add amount in INR for premium charge pre day 
 UPI_ID = environ.get("UPI_ID", "")
 if len(UPI_ID) == 0:
